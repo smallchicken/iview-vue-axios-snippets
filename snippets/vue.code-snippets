@@ -1,0 +1,49 @@
+{
+  "vue template": {
+    "prefix": "vue",
+    "body": [
+      "<template>",
+      " <div>",
+      "   $1",
+      " </div>",
+      "</template>\n",
+      "<script>",
+      " export default {",
+      "   name: '',",
+      "   data () {",
+      "     return {\n",
+      "     }",
+      "   },",
+      "   props: [],",
+      "   components: {\n",
+      "   }",
+      "   created () {}",
+      "   mounted () {}",
+      "   method: {\n",
+      "   }",
+      " }",
+      "</script>\n",
+      "<style lang=\"${2|css,less,scss,stylus|}\" scoped>\n",
+      "</style>",
+      "$0"
+    ],
+    "description": "vue 文件模版"
+  },
+  "vue ts template": {
+    "prefix": "vuets",
+    "body": [
+      "<template>",
+      " <div>",
+      "   $1",
+      " </div>",
+      "</template>\n",
+      "<script lang=\"ts\">\n",
+      "import { Component, Vue } from 'vue-property-decorator'\n",
+      "@Component({$2})\n",
+      "export default class ${3:ClassName} extends Vue {\n$0\n}\n",
+      "</script>\n",
+      "<style lang=\"${4|css,less,scss,stylus|}\" scope>\n\n</style>"
+    ],
+    "description": "vue ts 文件模版"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "import axios": {
+		"prefix": "imax",
+		"body": [
+			"import axios from 'axios'"
+		],
+		"description": "import axios from axios"
+  },
+	"axios get": {
+		"prefix": "axg",
+		"body": [
+			"this.\\$axios.get('$1', {",
+      "  params: {$2}",
+      "}).then(res => {",
+      "  $3",
+      "}).catch(err => {",
+      "  $4",
+      "})"
+		],
+		"description": "axios get 方法"
+  },
+  "axios post": {
+		"prefix": "axpo",
+		"body": [
+			"this.\\$axios.post('$1', {",
+      "  $2",
+      "}).then(res => {",
+      "  $3",
+      "}).catch(err => {",
+      "  $4",
+      "})"
+		],
+		"description": "axios post 方法"
+  },
+  "axios put": {
+		"prefix": "axpu",
+		"body": [
+			"this.\\$axios.put('$1', {",
+      "  $2",
+      "}).then(res => {",
+      "  $3",
+      "}).catch(err => {",
+      "  $4",
+      "})"
+		],
+		"description": "axios put 方法"
+  },
+  "axios delete": {
+		"prefix": "axd",
+		"body": [
+			"this.\\$axios.delete('$1', {",
+      "  params: {$2}",
+      "}).then(res => {",
+      "  $3",
+      "}).catch(err => {",
+      "  $4",
+      "})"
+		],
+		"description": "axios delete 方法"
+  },
+  "axios all": {
+		"prefix": "axall",
+		"body": [
+			"this.\\$axios.all([$1])",
+      ".then(axios.spread(($2) => {",
+      "  $3",
+      "}).catch(err => {",
+      "  $4",
+      "})"
+		],
+		"description": "axios all 方法"
+  },
+}

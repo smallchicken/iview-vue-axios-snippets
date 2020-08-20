@@ -1,0 +1,81 @@
+{
+    "name": "iview-vue-axios-snippets",
+    "displayName": "iview-vue-axios-snippets",
+    "description": "iview、vue、axios和一些自用的代码片段插件",
+    "publisher": "smallChicken",
+    "version": "0.0.4",
+    "repository": {
+        "type": "git",
+        "url":"https://github.com/smallchicken/iview-vue-axios-snippets"
+    },
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/ajax.code-snippets"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/ajax.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/axios.code-snippets"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/axios.code-snippets"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/vue.code-snippets"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/vue.code-snippets"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/vue.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/iview.code-snippets"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/iview.code-snippets"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/iview.code-snippets"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/iview.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/jxrt.code-snippets"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/jxrt.code-snippets"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/jxrt.code-snippets"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/jxrt.code-snippets"
+            }
+        ]
+    }
+}

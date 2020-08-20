@@ -1,0 +1,347 @@
+{
+  "i-btn": {
+    "prefix": "i-btn",
+    "body": [
+      "<Button>$1</Button>"
+    ],
+    "description": "<Button>Default</Button>"
+  },
+  "i-btn-primary": {
+    "prefix": "i-btn-primary",
+    "body": [
+      "<Button type=\"primary\">$1</Button>"
+    ],
+    "description": "<Button type=\"primary\">Primary</Button>"
+  },
+  "i-btn-primary-ghost": {
+    "prefix": "i-btn-ghost",
+    "body": [
+      "<Button type=\"primary\" ghost>$1</Button>"
+    ],
+    "description": "<Button type=\"primary\" ghost>Primary</Button>"
+  },
+  "i-row": {
+    "prefix": "i-row",
+    "body": [
+      "<Row>",
+        "<Col span=\"12\">$1</Col>",
+        "<Col span=\"12\">$2</Col>",
+      "</Row>"
+    ],
+    "description": "<Row><Col></Col></Row>"
+  },
+  "i-icon": {
+    "prefix": "i-icon",
+    "body": [
+        "<Icon type=\"$1\" />"
+    ],
+    "description": "iview icon"
+  },
+  "i-col": {
+    "prefix": "i-col",
+    "body": [
+        "<Col span=\"$1\">\n\t$2\n</Col>"
+    ],
+    "description": "iview span"
+  },
+  "i-row-gutter": {
+    "prefix": "i-row-gutter",
+    "body": [
+      "<Row :gutter=\"16\">",
+        "<Col span=\"12\">$1</Col>",
+        "<Col span=\"12\">$2</Col>",
+      "</Row>"
+    ],
+    "description": "<Row :gutter=\"16\"><Col></Col></Row>"
+  },
+  "i-row-flex": {
+    "prefix": "i-row-flex",
+    "body": [
+      "<Row type=\"flex\" justify=\"${1|start,end,center,space-around,space-between|}\" align=\"${2|top,middle,bottom|}\">",
+        "<Col span=\"12\">$1</Col>",
+        "<Col span=\"12\">$2</Col>",
+      "</Row>"
+    ],
+    "description": "iview Row flex"
+  },
+  "i-tab": {
+    "prefix": "i-tab",
+    "body": [
+      "<Tabs value=\"name1\">",
+        "<TabPane label=\"标签一\" name=\"name1\">标签一的内容</TabPane>",
+      "</Tabs>",
+    ],
+    "description": "iview Tabs"
+  },
+  "i-tab-card-close": {
+    "prefix": "i-tab-card",
+    "body": [
+      "<Tabs value=\"name1\" type=\"card\" closable @on-tab-remove=\"handleTabRemove\">",
+        "<TabPane label=\"标签一\" name=\"name1\">标签一的内容</TabPane>",
+      "</Tabs>",
+    ],
+    "description": "iview Tabs Card"
+  },
+  "i-dropdown": {
+    "prefix": "i-dropdown",
+    "body": [
+      "<Dropdown trigger=\"${1|hover,click,contextMenu,custom|}\" placement=\"${2|top,top-start,top-end,bottom,bottom-start,bottom-end,left,left-start,left-end,right,right-start,right-end|}\">",
+        "<Button type=\"primary\">",
+            "下拉菜单",
+            "<Icon type=\"ios-arrow-down\"></Icon>",
+        "</Button>",
+        "<DropdownMenu slot=\"list\">",
+            "<DropdownItem>驴打滚</DropdownItem>",
+            "<DropdownItem>炸酱面</DropdownItem>",
+            "<DropdownItem disabled>豆汁儿</DropdownItem>",
+            "<DropdownItem>冰糖葫芦</DropdownItem>",
+            "<DropdownItem divided>北京烤鸭</DropdownItem>",
+        "</DropdownMenu>",
+      "</Dropdown>"
+    ],
+    "description": "iview Dropdown"
+  },
+  "i-steps": {
+    "prefix": "i-steps",
+    "body": [
+      "<Steps :current=\"1\">",
+        "<Step title=\"已完成\" content=\"这里是该步骤的描述信息\"></Step>",
+        "<Step title=\"进行中\" content=\"这里是该步骤的描述信息\"></Step>",
+        "<Step title=\"待进行\" content=\"这里是该步骤的描述信息\"></Step>",
+        "<Step title=\"待进行\" content=\"这里是该步骤的描述信息\"></Step>",
+      "</Steps>"
+    ],
+    "description": "iview Steps"
+  },
+  "i-input": {
+    "prefix": "i-input",
+    "body": [
+      "<Input v-model=\"value2\" placeholder=\"default size\" />"
+    ],
+    "description": "iview Input"
+  },
+  "i-input-clearable": {
+    "prefix": "i-input-clearable",
+    "body": [
+      "<Input v-model=\"value2\" placeholder=\"default size\" clearable/>"
+    ],
+    "description": "iview Input 可清除"
+  },
+  "i-input-prefix-suffix": {
+    "prefix": "i-input-prefix-suffix",
+    "body": [
+      "<Input v-model=\"value2\" placeholder=\"default size\" prefix=\"ios-contact\" suffix=\"ios-search\"/>"
+    ],
+    "description": "iview Input 前后缀"
+  },
+  "i-textarea": {
+    "prefix": "i-textarea",
+    "body": [
+      "<Input v-model=\"value2\" type=\"textarea\" :rows=\"4\" placeholder=\"default size\" />"
+    ],
+    "description": "iview textarea"
+  },
+  "i-radio": {
+    "prefix": "i-radio",
+    "body": [
+      "<Radio v-model=\"$1\">$2</Radio>"
+    ],
+    "description": "iview Radio"
+  },
+  "i-radio-group": {
+    "prefix": "i-radio-group",
+    "body": [
+      "<RadioGroup v-model=\"button5\" type=\"button\">",
+        "<Radio label=\"北京\"></Radio>",
+        "<Radio label=\"上海\"></Radio>",
+        "<Radio label=\"深圳\"></Radio>",
+        "<Radio label=\"杭州\"></Radio>",
+      "</RadioGroup>"
+    ],
+    "description": "iview radio 按钮组"
+  },
+  "i-checkbox": {
+    "prefix": "i-checkbox",
+    "body": [
+      "<Checkbox v-model=\"$1\">$2</Checkbox>"
+    ],
+    "description": "iview Checkbox"
+  },
+  "i-checkbox-group": {
+    "prefix": "i-checkbox-group",
+    "body": [
+      "<CheckboxGroup v-model=\"fruit\">",
+        "<Checkbox label=\"香蕉\"></Checkbox>",
+        "<Checkbox label=\"苹果\"></Checkbox>",
+        "<Checkbox label=\"西瓜\"></Checkbox>",
+      "</CheckboxGroup>"
+    ],
+    "description": "iview checkbox 组"
+  },
+  "i-table": {
+    "prefix": "i-table",
+    "body": [
+      "<Table :columns=\"columns\" :data=\"data\"></Table>"
+    ],
+    "description": "iview Table 组件"
+  },
+  "i-table-page": {
+    "prefix": "i-table-page",
+    "body": [
+      "<Table :columns=\"columns\" :data=\"data\"></Table>",
+      "<Page",
+      " :current=\"$1\" ",
+      " page-size=\"$2\" ",
+      " :total=\"$3\" ",
+      " placement=\"${4|bottom,top|}\"",
+      " @on-change=\"$5\"",
+      " @on-page-size-change=\"$6\"",
+      " show-sizer show-elevator show-total/>"
+    ],
+    "description": "iview Table Page 组件"
+  },
+  "i-select": {
+    "prefix": "i-select",
+    "body": [
+      "<Select v-model=\"model\" clearable>",
+        "<Option v-for=\"item in cityList\" :value=\"item.value\" :key=\"item.value\">{{ item.label }}</Option>",
+      "</Select>"
+    ],
+    "description": "iview Select 组件"
+  },
+  "i-date": {
+    "prefix": "i-date",
+    "body": [
+      "<DatePicker type=\"${1|date,daterange,datetime,datetimerange,year,month|}\" format=\"yyyy-MM-dd HH:mm\" @on-change=\"$2\" placeholder=\"Select date\"></DatePicker>"
+    ],
+    "description": "iview DatePicker 组件"
+  },
+  "i-inputnumber": {
+    "prefix": "i-inputnumber",
+    "body": [
+      "<InputNumber :max=\"10\" :min=\"1\" :step=\"1\" v-model=\"$1\"></InputNumber>"
+    ],
+    "description": "iview InputNumber 组件"
+  },
+  "i-form": {
+    "prefix": "i-form",
+    "body": [
+      "<Form ref=\"formValidate\" :model=\"formValidate\" :rules=\"ruleValidate\" :label-width=\"80\">",
+      "  <FormItem label=\"Name\" prop=\"name\">",
+      "    <Input v-model=\"formValidate.name\" placeholder=\"Enter your name\"></Input>",
+      "  </FormItem>",
+      "  <FormItem label=\"City\" prop=\"city\">",
+      "    <Select v-model=\"formValidate.city\" placeholder=\"Select your city\">",
+      "      <Option value=\"beijing\">New York</Option>",
+      "      <Option value=\"shanghai\">London</Option>",
+      "      <Option value=\"shenzhen\">Sydney</Option>",
+      "    </Select>",
+      "  </FormItem>",
+      "  <FormItem label=\"Date\">",
+      "    <Row>",
+      "      <Col span=\"11\">",
+      "        <FormItem prop=\"date\">",
+      "          <DatePicker type=\"date\" placeholder=\"Select date\" v-model=\"formValidate.date\"></DatePicker>",
+      "        </FormItem>",
+      "      </Col>",
+      "      <Col span=\"2\" style=\"text-align: center\">-</Col>",
+      "      <Col span=\"11\">",
+      "        <FormItem prop=\"time\">",
+      "          <TimePicker type=\"time\" placeholder=\"Select time\" v-model=\"formValidate.time\"></TimePicker>",
+      "        </FormItem>",
+      "      </Col>",
+      "    </Row>",
+      "  </FormItem>",
+      "  <FormItem label=\"Gender\" prop=\"gender\">",
+      "    <RadioGroup v-model=\"formValidate.gender\">",
+      "      <Radio label=\"male\">Male</Radio>",
+      "      <Radio label=\"female\">Female</Radio>",
+      "    </RadioGroup>",
+      "  </FormItem>",
+      "  <FormItem label=\"Hobby\" prop=\"interest\">",
+      "    <CheckboxGroup v-model=\"formValidate.interest\">",
+      "      <Checkbox label=\"Eat\"></Checkbox>",
+      "      <Checkbox label=\"Sleep\"></Checkbox>",
+      "      <Checkbox label=\"Run\"></Checkbox>",
+      "      <Checkbox label=\"Movie\"></Checkbox>",
+      "    </CheckboxGroup>",
+      "  </FormItem>",
+      "    <Button type=\"primary\" @click=\"handleSubmit('formValidate')\">Submit</Button>",
+      "    <Button @click=\"handleReset('formValidate')\" style=\"margin-left: 8px\">Reset</Button>",
+      "  </FormItem>",
+      "</Form>"
+    ],
+    "description": "iview Form 组件"
+  },
+  "i-alert": {
+    "prefix": "i-alert",
+    "body": [
+      "<Alert type=\"${1|info,success,warning,error|}\" show-icon>$2</Alert>"
+    ],
+    "description": "iview Alert 组件"
+  },
+  "i-message": {
+    "prefix": "i-message",
+    "body": [
+      "this.$Message.${1|info,success,warning,error|}('This is a tip')"
+    ],
+    "description": "iview Message"
+  },
+  "i-upload": {
+    "prefix": "i-upload",
+    "body": [
+        "<Upload action=\"${1}\">\n\t<Button type=\"ghost\" icon=\"ios-cloud-upload-outline\">上传文件</Button>\n</Upload>"
+    ],
+    "description": "iview upload"
+  },
+  "i-modal": {
+    "prefix": "i-modal",
+    "body": [
+      "<Modal",
+      "  v-model=\"modal1\"",
+      "  title=\"Common Modal dialog box title\">",
+      "  <p>Content of dialog</p>",
+      "  <p>Content of dialog</p>",
+      "  <p>Content of dialog</p>",
+      "  <div slot=\"footer\">",
+      "    <Button @click=\"cancel\">cancel</Button>",
+      "    <Button :loading=\"modal_loading\" @click=\"ok\">ok</Button>",
+      "  </div>",
+      "</Modal>"
+    ],
+    "description": "iview Modal"
+  },
+  "i-modal-confirm": {
+    "prefix": "i-modal-confirm",
+    "body": [
+      "this.$Modal.${1|info,success,warning,error,confirm|}({",
+      "  title: $2,",
+      "  content: $3",
+      "  onOk () => {$4}",
+      "})"
+    ],
+    "description": "iview modal confirm"
+  },
+  "i-tooltip": {
+    "prefix": "i-tooltip",
+    "body": [
+      "<Tooltip placement=\"${1|top,top-start,top-end,bottom,bottom-start,bottom-end,left,left-start,left-end,right,right-start,right-end|}\">",
+      "  <Button>Multiple lines</Button>",
+      "  <div slot=\"content\">",
+      "      <p>Display multiple lines of information</p>",
+      "      <p><i>Can customize the style</i></p>",
+      "  </div>",
+      "</Tooltip>"
+    ],
+    "description": "iview Tooltip"
+  },
+  "i-poptip": {
+    "prefix": "i-poptip",
+    "body": [
+      "<Poptip trigger=\"${1|hover,click,focus|}\" placement=\"${1|top,top-start,top-end,bottom,bottom-start,bottom-end,left,left-start,left-end,right,right-start,right-end|}\" title=\"Title\" content=\"content\">",
+      "  <Button>Hover</Button>",
+      "</Poptip>"
+    ],
+    "description": "iview Poptip"
+  }
+}

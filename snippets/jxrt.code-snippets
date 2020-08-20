@@ -1,0 +1,30 @@
+{
+  "import mapState mapActions": {
+    "prefix": "imstate",
+    "body": [
+      "import { mapState, mapActions } from 'vuex'"
+    ],
+    "description": "import { mapState, mapActions } from 'vuex'"
+  },
+  "import downloadFile": {
+    "prefix": "imdownfile",
+    "body": [
+      "import { downloadFile } from '@/libs/util'"
+    ],
+    "description": "import { downloadFile } from '@/libs/util'"
+  },
+  "import UkeyCredit": {
+    "prefix": "imukeycredit",
+    "body": [
+      "import UkeyCredit from '@/libs/ukey-credit'"
+    ],
+    "description": "import UkeyCredit from '@/libs/ukey-credit'"
+  },
+  "import util": {
+    "prefix": "imutil",
+    "body": [
+      "import { $1 } from '@/libs/util'"
+    ],
+    "description": "import { ... } from '@/libs/util'"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "import ajax": {
+		"prefix": "imaj",
+		"body": [
+			"import ajax from '@/libs/${1|ajax,request|}'"
+		],
+		"description": "import ajax from @/libs/..."
+  },
+	"ajax get": {
+		"prefix": "ajget",
+		"body": [
+      "ajax.get('$1', ${2:params})",
+      ".then(res => {",
+      "  $3",
+      "}).catch(err => {",
+      "  $4",
+      "})"
+		],
+		"description": "ajax get 方法"
+  },
+  "ajax post": {
+		"prefix": "ajpost",
+		"body": [
+			"ajax.post('$1', ${2:data})",
+      ".then(res => {",
+      "  $3",
+      "}).catch(err => {",
+      "  $4",
+      "})"
+		],
+		"description": "ajax post 方法"
+  },
+  "ajax put": {
+		"prefix": "ajput",
+		"body": [
+			"ajax.put('$1', ${2:data})",
+      ".then(res => {",
+      "  $3",
+      "}).catch(err => {",
+      "  $4",
+      "})"
+		],
+		"description": "ajax put 方法"
+  },
+  "ajax delete": {
+		"prefix": "ajd",
+		"body": [
+			"ajax.delete('$1', ${2:params})",
+      ".then(res => {",
+      "  $3",
+      "}).catch(err => {",
+      "  $4",
+      "})"
+		],
+		"description": "ajax delete 方法"
+  },
+  "ajax req": {
+		"prefix": "ajreq",
+		"body": [
+			"ajax.req({",
+      " url: $1",
+      " method: ${2|get,post,put,detele|}",
+      " params: ${3:params}",
+      " data: ${4:data}",
+      "})",
+      ".then((req) => {",
+      "  $5",
+      "}).catch(err => {",
+      "  $6",
+      "})"
+		],
+		"description": "ajax req 方法"
+  },
+  "api function": {
+    "prefix": "exapi",
+    "body": [
+      "/**",
+      "* @Descripttion: $1",
+      "* @param {object} data 参数",
+      "*/",
+      "export function ${2:name} (data) {",
+      " return ajax.get('$3', data)",
+      "}"
+    ],
+    "description": "api中导出的接口方法"
+  }
+}
