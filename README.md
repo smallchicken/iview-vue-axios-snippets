@@ -17,7 +17,7 @@ code --install-extension iview-vue-axios-snippets-0.0.4.vsix
 
 或者点击扩展，点击右上角的三个点，点击从 vsix 安装。
 
-3.插件中心搜索 iview-vue-axios-snippets 进行安装 （推荐）
+**3.插件中心搜索 iview-vue-axios-snippets 进行安装 （推荐）**
 
 ### 命令列表
 说明：可以按tab切换光标移动，光标到达某些位置会出现配置可选项，按上、下选择，回车确认。
