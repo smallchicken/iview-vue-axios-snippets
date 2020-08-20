@@ -4,12 +4,12 @@
 
 ### 使用方式
 
-1.简单粗暴型：
-（1）在 vscode 工作区新建一个 .vscode 文件夹
+1.简单粗暴型：  
+（1）在 vscode 工作区新建一个 .vscode 文件夹  
 （2）把 snippets 文件夹下的文件复制粘贴到刚才新建的文件夹下，就可以使用了
 
-2.本地离线安装：
-（1）复制 iview-vue-axios-snippets-0.0.4.vsix 文件到 vscode 的安装目录的 bin 目录下
+2.本地离线安装：  
+（1）复制 iview-vue-axios-snippets-0.0.4.vsix 文件到 vscode 的安装目录的 bin 目录下  
 （2）在当前目录打开命令行工具，运行一下代码：
 ```
 code --install-extension iview-vue-axios-snippets-0.0.4.vsix
