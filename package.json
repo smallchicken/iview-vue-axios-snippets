@@ -3,7 +3,7 @@
     "displayName": "iview-vue-axios-snippets",
     "description": "iview、vue、axios和一些自用的代码片段插件",
     "publisher": "smallChicken",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "repository": {
         "type": "git",
         "url":"https://github.com/smallchicken/iview-vue-axios-snippets"
@@ -59,6 +59,22 @@
             {
                 "language": "vue-html",
                 "path": "./snippets/iview.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/i-iview.code-snippets"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/i-iview.code-snippets"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/i-iview.code-snippets"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/i-iview.code-snippets"
             },
             {
                 "language": "javascript",

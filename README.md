@@ -9,10 +9,10 @@
 （2）把 snippets 文件夹下的文件复制粘贴到刚才新建的文件夹下，就可以使用了
 
 2.本地离线安装：  
-（1）复制 iview-vue-axios-snippets-0.0.4.vsix 文件到 vscode 的安装目录的 bin 目录下  
+（1）复制 iview-vue-axios-snippets-0.0.5.vsix 文件到 vscode 的安装目录的 bin 目录下  
 （2）在当前目录打开命令行工具，运行一下代码：
 ```
-code --install-extension iview-vue-axios-snippets-0.0.4.vsix
+code --install-extension iview-vue-axios-snippets-0.0.5.vsix
 ```
 
 或者点击扩展，点击右上角的三个点，点击从 vsix 安装。
@@ -22,41 +22,44 @@ code --install-extension iview-vue-axios-snippets-0.0.4.vsix
 ### 命令列表
 说明：可以按tab切换光标移动，光标到达某些位置会出现配置可选项，按上、下选择，回车确认。
 #### 1、iview 部分
+
+***说明：如果需要 i- 前缀，可在命令缩写前加 i-XXX***
+
 | 命令缩写 | 描述 |
 | ---     | --- |
-| i-btn | 默认 Button 组件 |
-| i-btn-primary | type = primary Button 组件 |
-| i-btn-ghost | 幽灵 Button 组件 |
-| i-row | 包含 Row 和 Col 的组件片段 |
-| i-row-gutter | 有间距的包含 Row 和 Col 的组件片段 |
-| i-row-flex | flex 布局的栅格组件|
-| i-col | Col 组件 |
-| i-icon | Icon 组件|
-| i-tab | 普通的 Tab 组件|
-| i-tab-card | 卡片类型可关闭的 Tab 组件 |
-| i-dropdown | Dropdown 组件 |
-| i-steps | Steps 组件 |
-| i-input | 普通的 Input 组件 |
-| i-input-clearable | 可清楚的 Input 组件 |
-| i-input-prefix-suffix | 带前后缀的 Input 组件 |
-| i-textarea | Textarea 组件 |
-| i-radio | 普通的 Radio 组件 |
-| i-radio-group | 按钮组的 Radio 组件 |
-| i-checkbox | 普通的 Checkbox 组件 |
-| i-checkbox-group | Checkbox 组 |
-| i-table | Table 组件 |
-| i-table-page | 带 Page 组件的 Table 组件 |
-| i-select | Select 组件 |
-| i-date | DatePicker 日期组件 |
-| i-inputnumber | InputNumber 数字输入框组件 |
-| i-form | Form 组件 包含通用的输入组件 |
-| i-alert | Alert 组件 |
-| i-message | Message 组件 | 
-| i-upload | Upload 上传组件 |
-| i-modal | 自定义页脚的 Modal 组件|
-| i-modal-confirm | Modal 的确认框组件 |
-| i-tooltip | 自定义内容的 Tooltip 组件 |
-| i-poptip | Poptip 组件 |
+| btn | 默认 Button 组件 |
+| btn-primary | type = primary Button 组件 |
+| btn-ghost | 幽灵 Button 组件 |
+| row | 包含 Row 和 Col 的组件片段 |
+| row-gutter | 有间距的包含 Row 和 Col 的组件片段 |
+| row-flex | flex 布局的栅格组件|
+| col | Col 组件 |
+| icon | Icon 组件|
+| tab | 普通的 Tab 组件|
+| tab-card | 卡片类型可关闭的 Tab 组件 |
+| dropdown | Dropdown 组件 |
+| steps | Steps 组件 |
+| input | 普通的 Input 组件 |
+| input-clearable | 可清楚的 Input 组件 |
+| input-prefix-suffix | 带前后缀的 Input 组件 |
+| textarea | Textarea 组件 |
+| radio | 普通的 Radio 组件 |
+| radio-group | 按钮组的 Radio 组件 |
+| checkbox | 普通的 Checkbox 组件 |
+| checkbox-group | Checkbox 组 |
+| table | Table 组件 |
+| table-page | 带 Page 组件的 Table 组件 |
+| select | Select 组件 |
+| date | DatePicker 日期组件 |
+| inputnumber | InputNumber 数字输入框组件 |
+| form | Form 组件 包含通用的输入组件 |
+| alert | Alert 组件 |
+| message | Message 组件 | 
+| upload | Upload 上传组件 |
+| modal | 自定义页脚的 Modal 组件|
+| modal-confirm | Modal 的确认框组件 |
+| tooltip | 自定义内容的 Tooltip 组件 |
+| poptip | Poptip 组件 |
 
 #### 2、vue 模板部分
 
